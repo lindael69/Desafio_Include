@@ -1,3 +1,29 @@
+/* -------- Geral --------- */
+.sectionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1336px;
+    padding: 32px 0;
+}
+
+.button {
+    width: fit-content;
+    color: var(--white-color);
+    background: rgba(242, 82, 33, 0.8);
+    border-radius: 6px;
+    padding: 12px 24px;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+/* -------- Cabeçalho --------- */
+
 .topPageContainer {
     display: flex;
     justify-content: center;
@@ -30,6 +56,8 @@
     color: var(--primary-variant);
 }
 
+/* -------- Seção principal --------- */
+
 #mainSection {
     background: url('../img/mainImage.png') no-repeat;
     background-size: cover;
@@ -52,21 +80,132 @@
     text-align: center;
     color: var(--white-color);
 }
-
 .mainSectionSubtitle {
     color: var(--white-variant);
 }
 
-.button {
-    width: fit-content;
-    color: var(--white-color);
-    background: rgba(242, 82, 33, 0.8);
-    border-radius: 6px;
-    padding: 12px 24px;
-    transition: all 0.3s ease-in-out;
+/* -------- Seção de serviços --------- */
+
+.servicesLine {
+    display: flex;
+    gap: 48px;
+    
 }
 
-.button:hover {
-    cursor: pointer;
+.servicesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #D9D9D9; 
+    padding: 24px 32px;
+    border-radius: 8px;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.servicesCard h3 {
+    margin-top: 6px;
+}
+
+/* -------- Seção de Sobre nós --------- */
+#sectionAboutUs {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: var(--white-color);
+}
+
+#sectionAboutUs .sectionsContainer {
+    flex-direction: row;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+}
+
+/* -------- Seção de portfólio --------- */
+#sectionPortfolio article {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px;
+
+
+}
+#sectionPortfolio .sectionsContainer {
+    flex-direction: row;
+
+
+}
+.articlePortfolio {
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    
+
+}
+.articlePortfolio h2 {
+    text-align: start;
+
+}
+.divColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+#articlePortfolio2{
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.corLaranja {
+    color: var(--primary-color);
+
+}
+
+#sectionOurClients{
+    display: flex;
+    gap: 16px;
+
+
+}
+
+.divOurClients {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+#sectionQuality {
+    
     background-color: var(--primary-color);
+}
+
+.divQuality {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    gap: 24px;
+
+}
+
+.articleQuality {
+    background-color: #fff;
+    padding: 20px 16px;
+    border-radius: 8px;
+    
+
+
+}
+
+#sectionQuality2 {
+    background-color: rgba(242, 82, 33, 0.7);
+
 }

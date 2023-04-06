@@ -14,28 +14,176 @@
     
 </head>
 <body>
-    <header class="topPageContainer">
+    <header class="topPageContainer"> <!-- -------- Cabeçalho -->
         <div class="topPage">
-            <img id="logo" src="./img/logo.png"/>
+            <img id="logo" src="./img/logo.png" alt="Logo Include"/>
             <nav class="topPageNav">
-                <a class="navItem" href="#">Sobre nós</a>
-                <a class="navItem" href="#">Serviços</a>
-                <a class="navItem" href="#">Portfólio</a>
+                <a class="navItem" href="#sectionAboutUs">Sobre nós</a>
+                <a class="navItem" href="#servicesSection">Serviços</a>
+                <a class="navItem" href="#sectionPortfolio">Portfólio</a>
                 <a class="navItem" href="#">Contatos</a>
             </nav>
         </div>
-    </header>
-    <section id="mainSection" >
-        <article class="mainSectionContent">
+    </header> <!-- -------- Fim do cabeçalho -->
 
+    <section id="mainSection" > <!-- -------- seção principal -->
+        <article class="mainSectionContent">
             <div class="mainTitleWrapper">
                 <h2 class="headline4">Consultoria especializada em Engenharia e Gestão de Negócios</h2>
                 <p class="headline6 mainSectionSubtitle">Transformando empresas por meio da vivência empresarial</p>
             </div>
 
             <button class="button">Fale com um especialista</button>
-
         </article>
+    </section> <!-- -------- Fim da seção principal -->
+
+    <section class="limit" id="servicesSection"> <!-- -------- seção de serviços -->
+        <div class="sectionsContainer"> <!-- -------- Container da seção -->
+            <h2>Serviços</h2>
+            <div class="servicesLine"> <!-- -------- 1 linha da seção -->
+                <article class="servicesCard">
+                    <header>
+                        <img src="./img/8665113_chess_icon 1.png" width="50px" alt="Icone de Gestão Estratégica"/>
+                        <h3>Gestão Estratégica</h3>
+                    </header>
+                    <p class="serviceParagraph">Gestão estratégica é o conjunto de práticas e objetivos definidos pelos principais gestores de uma empresa, levando em consideração os ambientes interno e externo da companhia. Além de determinar os principais objetivos de uma organização em determinado período de tempo, os executivos também são responsáveis por definir como esses objetivos serão alcançados e alocar recursos para que as metas se concretizem.</p>
+                    <button class="button">Detalhes</button>
+                </article>
+                <article class="servicesCard">
+                    <header>
+                        <img src="./img/image 2.png" width="50px" alt="Icone de Gestão da Produção">
+                        <h3>Gestão da Produção</h3>
+                    </header>
+                    <p class="serviceParagraph">Consiste na gestão de ciclo que vai desde a estruturação dos processos de produção até as etapas finais com o cliente. É por meio do processo de gestão – sempre seguindo propósitos, princípios e valores pré-estabelecidos – que um empreendimento alcança seus objetivos e metas.</p>
+                    <button class="button">Detalhes</button>
+                </article>
+            </div>
+            <div class="servicesLine"> <!-- -------- 2 linha da seção -->
+                <article class="servicesCard">
+                    <header>
+                        <img src="./img/image 3.png" width="50px" alt="Icone de Financeira">
+                        <h3>Gestão Financeira</h3>
+                    </header>
+                    <p class="serviceParagraph">Gestão financeira empresarial é todo controle, administração, acompanhamento e planejamento das finanças de um negócio. Possui como principal objetivo a maximização dos resultados, ou seja, dos lucros. Para isso, utiliza de processos, métodos, ferramentas e padronização para alcançar melhores resultados financeiros.</p>
+                    <button class="button">Detalhes</button>
+                </article>
+                <article class="servicesCard">
+                    <header>
+                        <img src="./img/image 4.png" width="50px" alt="Assessoria em Gestão">
+                        <h3>Assessoria em Gestão</h3>
+                    </header>
+                    <p class="serviceParagraph">Consiste-se em um serviço completo, desenvolvido a partir das necessidades de cada cliente, onde ele buscar impulsionar e impactar de forma direta e/ou indireta, todas os setores da empresa.</p>
+                    <button class="button">Detalhes</button>
+                </article>
+
+            </div>
+        </div> <!-- -------- Fim do container da seção -->
+    </section> <!-- -------- Fim da seção de serviços -->
+
+    <section class="limit" id="sectionAboutUs">
+        <article class="sectionsContainer">
+            <div>
+                <img src="./img/image 126.png" alt="icone homem sobre nós">    
+            </div>
+            <blockquote>
+                <p>Nós somos uma empresa que nasceu da paixão pela empreendedorismo e pela busca constante pela excelência em tudo o que fazemos. Nosso objetivo é oferecer soluções inovadoras e personalizadas para cada cliente, atendendo às suas necessidades e contribuindo para o sucesso de seus negócios.
+                    Aqui, acreditamos que a transparência e a ética são fundamentais em todas as nossas atividades. Afinal, é assim que conquistamos a confiança de nossos clientes e parceiros, e assim que podemos trabalhar juntos de forma produtiva e eficiente.
+                    Além disso, temos uma equipe altamente qualificada e comprometida, que está sempre atualizada com as últimas tendências e tecnologias do mercado. Isso nos permite oferecer soluções de alta qualidade e valor agregado para nossos clientes, e garantir que estejamos sempre à frente do jogo.</p>
+                <cite class="author">-Roberto Aquino</cite>    
+            </blockquote>
+        </article>
+    </section>
+
+    <section class="limit" id="sectionPortfolio">
+        <div class="sectionsContainer">
+            <div class="divColumn">
+                <article class="articlePortfolio">
+                    <h2 class="corLaranja">Visão:</h2>
+                    <p>Ser reconhecida como referência em gestão empresarial, oferecendo <span class="corLaranja">soluções inovadoras e personalizadas para cada cliente</span>, com base em princípios éticos e de responsabilidade social, e contribuir para o <span class="corLaranja">desenvolvimento sustentável das empresas e da sociedade.</span></p>
+                </article>
+                <article class="articlePortfolio">
+                    <h2 class="corLaranja">Missão</h2>
+                    <p>Oferecer <span class="corLaranja">soluções</span> de gestão empresarial de <span class="corLaranja">alta qualidade</span>, ajudando nossos clientes a alcançarem seus <span class="corLaranja">objetivos de negócios</span> de <span class="corLaranja">forma sustentável</span> e <span class="corLaranja">ética</span>, por meio de uma equipe altamente <span class="corLaranja">qualificada</span> e <span class="corLaranja">comprometida</span>.</p>
+                </article>
+                <article class="articlePortfolio">
+                    <h2 class="corLaranja" >Valores</h2>
+                    
+                    <p>•<span class="corLaranja">Ética:</span> agir sempre com integridade e transparência em todas as nossas atividades.</p>
+                    <p>•<span class="corLaranja">Comprometimento:</span> ser comprometido com o sucesso de nossos clientes e colaboradores.</p>
+                    <p>•<span class="corLaranja">Inovação:</span> buscar sempre soluções criativas e inovadoras para atender as necessidades de nossos clientes.</p>
+                    <p>•<span class="corLaranja">Excelência:</span> buscar a excelência em tudo o que fazemos, oferecendo serviços de alta qualidade e valor agregado.</p>
+                    <p>•<span class="corLaranja">Responsabilidade social e ambiental:</span> contribuir para o desenvolvimento sustentável da sociedade e do meio ambiente, por meio de ações e práticas socialmente responsáveis.</p>
+                
+                </article>
+            </div>
+    
+            <div class="divColumn">
+                <article id="articlePortfolio2">
+                    <img src="./img/logo.png" width="170" alt="logo no portfolio">
+                    <h2>Prospere Gestão Empresarial</h2>
+                    <p>Transformando empresas por meio da vivência empresarial</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="limit" id="sectionOurClients">
+        <h2>Nossos Clientes</h2>
+        <div class="divOurClients">
+            <img src="./img/logo-textoembaixo-fundobranco-recortado-1024x697.png" alt="logo maria florinha">
+            <img src="./img/4569.png" alt="logo são luiz">
+            <img src="./img/Normatel.png" alt="logo normatel">
+            <img src="./img/Logo_Padr_o2.png" alt="logo we love pizza">
+            <img src="./img/lmn-removebg-preview.png" alt="logo phd">
+        </div>
+        <div class="divOurClients">
+            <img src="./img/def-removebg-preview.png" alt="logo ari de sá">
+            <img src="./img/download.png" alt="logo maria baloes">
+            <img src="./img/hij-removebg-preview.png" alt="logo ibel">
+            <img src="./img/images.png" alt="logo projarq">
+            <img src="./img/4568.png" alt="logo campachi">
+        </div>
+    </section>
+    <section class="limit" id="sectionQuality">
+        <div class="sectionsContainer">
+            <div class="divQuality">
+                <article class="articleQuality">
+                    <img src="./img/image 92.png" alt="">
+                    <p>Otimização do Tempo</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 93.png" alt="">
+                    <p>Redução dos Custos</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 94.png" alt="">
+                    <p>Maior Lucratividade</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 95.png" alt="">
+                    <p>Suporte Ágil e Eficiente</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 92.png" alt="">
+                    <p>Otimização do Tempo</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 93.png" alt="">
+                    <p>Redução dos Custos</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 94.png" alt="">
+                    <p>Maior Lucratividade</p>
+                </article>
+                <article class="articleQuality">
+                    <img src="./img/image 95.png" alt="">
+                    <p>Redução dos Custos</p>
+                </article>
+            </div>
+        </div>
+        
+    </section>
+    <section class="limit" id="sectionQuality2">
+        
     </section>
 </body>
 </html>
