@@ -1,0 +1,72 @@
+.topPageContainer {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+}
+
+.topPage {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+    width: 100%;
+    max-width: 1336px;
+}
+
+.topPageNav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.navItem {
+    color: var(--white-color);
+    text-decoration: none; 
+    transition: all 0.15s ease-in-out;
+}
+
+.navItem:hover {
+    color: var(--primary-variant);
+}
+
+#mainSection {
+    background: url('../img/mainImage.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+
+}
+.mainTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.mainSectionSubtitle {
+    color: var(--white-variant);
+}
+
+.button {
+    width: fit-content;
+    color: var(--white-color);
+    background: rgba(242, 82, 33, 0.8);
+    border-radius: 6px;
+    padding: 12px 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
