@@ -209,3 +209,159 @@
     background-color: rgba(242, 82, 33, 0.7);
 
 }
+
+#divQuality2 {
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+
+.divOrgQuality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--white-color);
+    width: 100%;
+    gap: 16px;
+    
+
+}
+
+.divBola {
+    display: flex;
+    border-radius: 50px;
+    background: var(--primary-color);
+    padding: 8px;
+
+}
+
+.paragraphQuality {
+    display: flex;
+    padding: 0px 0px;
+}
+
+.divLinhaQuality {
+    display: flex;
+    background: var(--white-color);
+    width: 100%;
+    height: 2px;
+
+}
+
+
+
+
+.divQuality2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    gap: 400px;
+
+
+}
+
+
+.divQuality3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    gap: 176px;
+}
+
+.divQuality4 {
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+#divOrganizaOrç {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.divBlackLine {
+    display: flex;
+    background-color: #000;
+    width: 4px;
+    height: 500px;
+}
+
+.divEntradaOrçamentos {
+    display: flex;
+    background: rgba(242, 82, 33, 0.4);
+    border-radius: 8px;
+    padding: 16px 256px;
+
+}
+
+.divOrçEsq {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+
+.divOrçDir {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+
+}
+.divEntradaDir {
+    display: flex;
+    background-color: rgba(242, 82, 33, 0.4);
+    border-radius: 8px;
+    padding: 16px 256px;
+
+}
+.divEntradaDirBaixo {
+    display: flex;
+    background-color: rgba(242, 82, 33, 0.4);
+    border-radius: 8px;
+    padding: 150px 256px;
+
+
+}
+
+#sectionContatos {
+    color: var(--white-color);
+    background-color: #000;
+   
+}
+
+#divContatos {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+.divContatosEsq {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+
+}
+
+.divContatosEsq #esq {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.divContatosEsq #dir {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
