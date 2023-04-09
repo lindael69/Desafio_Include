@@ -17,7 +17,7 @@
     padding: 12px 24px;
     transition: all 0.3s ease-in-out;
 }
-.button:hover {
+.button:hover { 
     cursor: pointer;
     background-color: var(--primary-color);
 }
@@ -293,30 +293,34 @@
     height: 500px;
 }
 
+.textField {
+    background: rgba(242, 82, 33, 0.4);
+    border-radius: 6px;
+    height: 42px;
+    padding: 0 16px;
+}
+
 .divEntradaOrçamentos {
     display: flex;
     background: rgba(242, 82, 33, 0.4);
     border-radius: 8px;
     padding: 16px 256px;
-
 }
 
-.divOrçEsq {
+#desiredServices {
+    background: rgba(242, 82, 33, 0.4);
+    padding: 16px; 
+    border-radius: 6px;  
+    resize: none
+}
+
+.divOrç {
     display: flex;
     flex-direction: column;
     gap: 16px;
-
-
+    width: 100%;
 }
 
-.divOrçDir {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-
-
-
-}
 .divEntradaDir {
     display: flex;
     background-color: rgba(242, 82, 33, 0.4);
@@ -358,6 +362,11 @@
     flex-direction: column;
     gap: 24px;
 }
+.contactsWrapper {
+    display: flex;
+    gap: 6px;
+
+}
 
 .divContatosEsq #dir {
     display: flex;
@@ -365,3 +374,22 @@
     gap: 24px;
 
 }
+#h2siganos {
+    width: max-content;
+
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
