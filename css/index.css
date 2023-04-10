@@ -340,6 +340,11 @@
 
 
 }
+#sectionOrçamento {
+    display: flex;
+    margin-top: 16px;
+
+}
 
 #sectionContatos {
     color: var(--white-color);
